@@ -1,0 +1,10 @@
+<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" [expanded]="stepNumber">
+    <mat-expansion-panel-header [ngStyle]="{'background-color':backgroundColor}">
+        <mat-panel-title style="color: white;">
+            {{serialNumber}}. {{titleName}}
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div class="p-5">
+        {{description}}
+    </div>
+</mat-expansion-panel>

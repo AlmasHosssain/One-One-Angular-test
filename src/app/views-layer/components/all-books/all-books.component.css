@@ -1,0 +1,20 @@
+.heading {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(81, 81, 226, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+    color: white;
+}
+
+.body {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+mat-icon {
+    color: #2A6E2A;
+}

@@ -1,0 +1,37 @@
+<div fxLayout="column" class="heading">
+    <div fxLayout="row" fxLayoutAlign="center center">
+        <h2>Richard Branson: An Autobiography</h2>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between">
+        <div style="margin-left: -40px;">
+            <p>
+                <mat-icon>home</mat-icon>Course info</p>
+        </div>
+        <div>
+            <p>
+                <mat-icon>alarm</mat-icon>69 min to finish
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <mat-icon>play_arrow</mat-icon> Start Now
+            </p>
+        </div>
+    </div>
+</div>
+<div fxLayout="row" class="body">
+    <mat-accordion class="headers-align">
+        <app-single-book [backgroundColor]="backGroundColor1" [stepNumber]=0 [serialNumber]="1" [titleName]="titleName1" [description]="description"></app-single-book>
+        <app-single-book [backgroundColor]="backGroundColor2" [stepNumber]=1 [serialNumber]="2" [titleName]="titleName2" [description]="description"></app-single-book>
+        <app-single-book [backgroundColor]="backGroundColor3" [stepNumber]=2 [serialNumber]="3" [titleName]="titleName3" [description]="description"></app-single-book>
+        <app-single-book [backgroundColor]="backGroundColor4" [stepNumber]=3 [serialNumber]="4" [titleName]="titleName4" [description]="description"></app-single-book>
+        <app-single-book [backgroundColor]="backGroundColor5" [stepNumber]=4 [serialNumber]="5" [titleName]="titleName5" [description]="description"></app-single-book>
+        <app-single-book [backgroundColor]="backGroundColor6" [stepNumber]=5 [serialNumber]="6" [titleName]="titleName6" [description]="description"></app-single-book>
+        <app-single-book [backgroundColor]="backGroundColor7" [stepNumber]=6 [serialNumber]="7" [titleName]="titleName7" [description]="description"></app-single-book>
+        <app-single-book [backgroundColor]="backGroundColor8" [stepNumber]=7 [serialNumber]="8" [titleName]="titleName8" [description]="description"></app-single-book>
+        <app-single-book [backgroundColor]="backGroundColor9" [stepNumber]=8 [serialNumber]="9" [titleName]="titleName9" [description]="description"></app-single-book>
+        <app-single-book [backgroundColor]="backGroundColor10" [stepNumber]=9 [serialNumber]="10" [titleName]="titleName10" [description]="description"></app-single-book>
+        <br>
+    </mat-accordion>
+</div>
